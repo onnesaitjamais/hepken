@@ -12,7 +12,6 @@
 package runner
 
 import (
-	"strconv"
 	"time"
 
 	"github.com/arnumina/dastum"
@@ -34,16 +33,13 @@ type Runner struct {
 
 // New AFAIRE
 func New(name, version, builtAt string) *Runner {
-	ts, err := strconv.ParseInt(builtAt, 0, 64)
-	if err != nil {
-		ts = 0
-	}
+	ts, _ := dastum.UnixToTime(builtAt)
 
 	return &Runner{
 		id:        dastum.NewUUID(),
 		name:      name,
 		version:   version,
-		builtAt:   time.Unix(ts, 0),
+		builtAt:   ts,
 		startedAt: time.Now(),
 	}
 }
