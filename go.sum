@@ -1,0 +1,7 @@
+github.com/arnumina/dastum v0.0.0-20200501131253-abab8384710e h1:fAsoeBMkd2vPLJyDxqfL85DC9Z9xqX5Yn+eKbgst9A0=
+github.com/arnumina/dastum v0.0.0-20200501131253-abab8384710e/go.mod h1:MTeVG4c+lfgl/lJ47FGP4T18JWudpJaJ8WK3+RO0icg=
+github.com/dolmen-go/jsonptr v0.0.0-20200427210345-20e1608f9d85 h1:UehF9pCOF1JiOLmeZavootTCuimvkW7N1wggjyW4S90=
+github.com/dolmen-go/jsonptr v0.0.0-20200427210345-20e1608f9d85/go.mod h1:+6ZQtcQuiOH4ATMF+4885rhnE3FaM++MhE7m7vM302s=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
+gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c h1:dUUwHk2QECo/6vqA44rthZ8ie2QXMNeKRTHCNY2nXvo=
+gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
